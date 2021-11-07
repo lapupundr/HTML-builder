@@ -15,7 +15,6 @@ process.stdin.on('data', data => {
 
 process.stdin.pipe(writeStream);
 
-
 process.on('SIGINT', () => {
     process.exit();
   });
